@@ -11,3 +11,11 @@ All the information stems from the head.
 
 A data structure is a particular way of organizing and storing data in a computer so that it can be accessed and modified efficiently.
 
+The commonly used data structures are:
+  - Arrays
+  - Stacks
+  - Queues
+  - Linked List
+  - Trees
+  - Graphs
+  - Hash Tables
