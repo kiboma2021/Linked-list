@@ -1,15 +1,25 @@
-const n1 = {
-  d1: 100
+class Node {
+  constructor(data, next=null) {
+    this.data = data;
+    this.next = null;
+  }
 }
 
-const n2 = {
-  d2: 200
-}
+class linkedList {
+  constructor(){
+    this.head = null;
+    this.size = 0;
+  }
 
-const n3 = {
-  d3: 300
-}
+  addElement(data) {
+    var ll = new Node (data);
+    
+    var current;
 
-n1.next=n2;
-n2.next=n3;
-console.log(n1)
+    if(this.head==null){
+      this.head = data;
+    } else {
+      current = this.head;
+    }
+  }
+}
