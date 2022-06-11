@@ -1,12 +1,12 @@
-class node {
+class Node {
   constructor(data, next=null) {
     this.data = data;
     this.next = next;
   }
 }
 
-const n1 = new node (100);
-//console.log(n1); // Try to run node file name
+const n1 = new Node (100);
+//console.log(n1); // Try to run Node file name
 
 class LinkedList {
   constructor () {
@@ -15,6 +15,9 @@ class LinkedList {
   }
 
   // Insert head
+  insertFirst (data) {
+    this.head = new Node(data, this.head);
+  }
 
 
   //Insert Tail

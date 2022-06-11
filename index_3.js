@@ -11,4 +11,5 @@ const n3 = {
 }
 
 n1.next=n2;
+n2.next=n3;
 console.log(n1)
