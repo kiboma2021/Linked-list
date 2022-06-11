@@ -27,5 +27,12 @@ add( cars ) {
     current = this.head;
 
     //Iterate to the end of the list
+    while(current.next) {
+      current = current.next;
+    }
+
+    //Add node
+    current.next = car1;
   }
+  this.size++;
 };
